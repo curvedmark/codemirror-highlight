@@ -4,7 +4,7 @@
   "description": "Generating HTML containing highlighted code with CodeMirror",
   "main": "lib/highlight.js",
   "directories": {
-  	"lib": "lib",
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
@@ -25,7 +25,8 @@
     "url": "https://github.com/curvedmark/codemirror-highlight/issues"
   },
   "dependencies": {
-    "codemirror": "3.x"
+    "codemirror": "3.x",
+    "escape-html": "~1.0.0"
   },
   "devDependencies": {
     "mocha": "1.x"
