@@ -1,0 +1,33 @@
+{
+  "name": "codemirror-highlight",
+  "version": "1.0.0",
+  "description": "Generating HTML containing highlighted code with CodeMirror",
+  "main": "lib/highlight.js",
+  "directories": {
+  	"lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/curvedmark/codemirror-highlight.git"
+  },
+  "keywords": [
+    "highlight",
+    "syntax",
+    "codemirror"
+  ],
+  "author": "Glen Huang <curvedmark@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/curvedmark/codemirror-highlight/issues"
+  },
+  "dependencies": {
+    "codemirror": "3.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x"
+  }
+}
