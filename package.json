@@ -1,6 +1,6 @@
 {
   "name": "codemirror-highlight",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generating HTML containing highlighted code with CodeMirror",
   "main": "lib/highlight.js",
   "directories": {
